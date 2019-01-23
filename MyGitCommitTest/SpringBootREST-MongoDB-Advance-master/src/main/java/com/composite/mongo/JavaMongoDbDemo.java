@@ -64,7 +64,7 @@ public class JavaMongoDbDemo {
 				documentObj.append("joined_date", new Date());				
 				documentObj.append("friends", pickFriends()); 
 				address = pickAddress();				
-				documentAddressObj.append("country", address[0]);//Changes by 184145 Bimal
+				documentAddressObj.append("country", address[0]);// Changes by 184145 Bimal
 				documentAddressObj.append("state", address[1]);
 				documentAddressObj.append("city", address[2]);
 				//documentObj.append("address", new BasicDBObject("country",address[0]).append("state", address[1]).append("city", address[2])); 
